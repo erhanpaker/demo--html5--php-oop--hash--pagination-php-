@@ -1,0 +1,105 @@
+div.pagination 
+{
+    padding: 3px;
+    margin: 3px; font-family:Verdana; font-size:8pt; text-decoration:none
+}
+
+div.pagination a:hover, div.pagination a:active, div.pagination a, div.pagination span.current, div.pagination span.disabled 
+{
+    border: 1px solid #000000;
+
+    -moz-border-radius: 5px;
+    -border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+    -moz-border-bottom-colors: #039 #888 #aaa #ccc;
+    -moz-border-top-colors:    #039 #888 #aaa #ccc;
+    -moz-border-left-colors:   #039 #888 #aaa #ccc;
+    -moz-border-right-colors:  #039 #888 #aaa #ccc;
+
+    -webkit-border-bottom-colors: #039 #888 #aaa #ccc;
+    -webkit-border-top-colors:    #039 #888 #aaa #ccc;
+    -webkit-border-left-colors:   #039 #888 #aaa #ccc;
+    -webkit-border-right-colors:  #039 #888 #aaa #ccc;
+
+    -border-bottom-colors: #039 #888 #aaa #ccc;
+    -border-top-colors:    #039 #888 #aaa #ccc;
+    -border-left-colors:   #039 #888 #aaa #ccc;
+    -border-right-colors:  #039 #888 #aaa #ccc;
+}
+
+div.pagination a 
+{
+    margin: 2px;
+    text-decoration: none;
+    color: #000000;
+    font-family:Verdana; 
+    font-size:8pt; 
+    padding-left:5px; 
+    padding-right:5px; 
+    padding-top:2px; 
+    padding-bottom:2px;
+}
+
+div.pagination a:hover, div.pagination a:active 
+{
+    margin: 2px;
+    background-color: #f48722;
+    color: #FFFFFF;
+    font-family:Verdana; font-size:8pt;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;
+    padding-bottom:2px;
+    text-decoration:none
+}
+
+div.pagination span.current 
+{
+    margin: 2px;
+    font-weight: bold;
+    background-color: #8b8b8d;
+    color: #FFFFFF;
+    font-family:Verdana; 
+    font-size:8pt; 
+    padding-left:5px; 
+    padding-right:5px; 
+    padding-top:2px; 
+    padding-bottom:2px;
+}
+
+div.pagination span.disabled 
+{
+    margin: 2px;
+    color: #999999;
+    font-family:Verdana; 
+    font-size:8pt; 
+    padding-left:5px; 
+    padding-right:5px; 
+    padding-top:2px; 
+    padding-bottom:2px
+}
+
+a:hover.list 
+{ 
+    font-family: Verdana; 
+    font-size: 8pt; 
+    font-variant: small-caps; 
+    text-decoration: underline; 
+    text-transform: capitalize; 
+    color: #006699; 
+    line-height: 200%; 
+    font-weight: bold 
+}
+
+a.list       
+{ 
+    text-transform: capitalize; 
+    font-variant: small-caps; 
+    font-family: Verdana; 
+    font-size: 8pt; 
+    color: #FF0000; 
+    text-decoration: underline; 
+    line-height: 200%; 
+    font-weight: bold 
+}

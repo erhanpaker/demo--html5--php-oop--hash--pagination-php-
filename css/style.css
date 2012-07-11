@@ -1,0 +1,4 @@
+ul li{list-style:none;}
+#loader{background-image:url('../img/loading.gif'); height: 32px; position: absolute; width: 32px; display: none;}
+#lefty{float: left;}
+#righty{float: right;}
